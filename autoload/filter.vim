@@ -17,5 +17,3 @@ function! filter#Filter(...)
   set modifiable
   " get rid of file metadata
 endfunction
-
-echom "Autoload file loaded"

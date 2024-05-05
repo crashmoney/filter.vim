@@ -15,5 +15,3 @@ let g:loaded_filter = 1
 " Exposes the plugin's functions for use as commands in Vim.
 " command! -nargs=0 Filter call filter.vim#Filter()
 command! -nargs=? -bar -bang Filter call filter#Filter(<f-args>)
-
-echom "Plugin file loaded"
